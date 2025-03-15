@@ -13,6 +13,12 @@
   color: white;
 }
 
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
 button {
   background-color: #61dafb;
   border: none;
@@ -31,6 +37,11 @@ button {
 
 button:hover {
   background-color: #21a1f1;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
 }
 
 /* Responsive styles for iPhone 13 Pro Max */
